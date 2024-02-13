@@ -12,8 +12,7 @@ it contains an interface used to extend CrudRepository from the Spring framework
 - findByCountry(): accepts a string parameter and returns a list of adventures based on the country entered
 - findByState(): accepts a string parameter and returns a list of adventures based on the state entered
 - findById(): accepts an integer parameter and returns an adventure with the id entered. More info on this method below.
-- findAll(): this method is declared in the CrudRepository interface. Since we are extending this interface we have access to this method, which returns all entities as an  
-- Iterable<T> where T is the entity type (Adventure in our case).
+- findAll(): this method is declared in the CrudRepository interface. Since we are extending this interface we have access to this method, which returns all entities as an Iterable<T> where T is the entity type (Adventure in our case).
 - save(): this method is also declared in the CrudRepository interface. It saves a specified entity to the repository and returns the saved version of the entity.
 - delete(): this method is also declared in the CrudRepository interface. It removes a specified entity from the repository and returns nothing.
 
